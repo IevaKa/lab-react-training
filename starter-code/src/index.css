@@ -12,3 +12,16 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+#id-card {
+  display: flex;
+  width: 80%;
+}
+
+#bio-info p {
+  margin: 0;
+}
+
+#profile-pic {
+  margin: 0 10px;
+}
