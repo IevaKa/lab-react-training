@@ -10,8 +10,7 @@ class Random extends Component {
       }
       return (
         <div >
-            <p>Random Number between {this.props.min} and {this.props.max} 
-            is {getRandomIntInclusive(this.props.min, this.props.max)}</p>
+            <p>Random Number between {this.props.min} and {this.props.max} is {getRandomIntInclusive(this.props.min, this.props.max)}</p>
         </div>
       )
     }
