@@ -6,6 +6,7 @@ import BoxColor from './BoxColor';
 import CreditCard from './CreditCard';
 import Rating from './Rating';
 import LikeButton from './LikeButton';
+import ClickablePicture from './ClickablePicture';
 
 class App extends Component {
   render() {
@@ -82,6 +83,9 @@ class App extends Component {
           <h1>Like Buttons</h1>
           <LikeButton /> 
           <LikeButton />
+          <ClickablePicture
+            img="/img/persons/maxence.png"
+            imgClicked="/img/persons/maxence-glasses.png" />
 
       </div>
     );
